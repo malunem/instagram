@@ -1,0 +1,56 @@
+:root{
+    --light-color: snow;
+    --border-color: gainsboro;
+    --dark-color: #262626;
+}
+
+*{
+    color: var(--dark-color);
+}
+
+.btn{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--light-color);
+}
+
+a{
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.fas, .far{
+    color: var(--dark-color);
+}
+
+form{
+    height: 100%;
+    width: 70%;
+    max-width: 500px;
+}
+
+.dropdown-toggle::after {
+   content: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: unset;
+}
+
+.card{
+    width: 80%;
+    max-width: 700px;
+}
